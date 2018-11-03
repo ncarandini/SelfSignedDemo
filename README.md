@@ -1,5 +1,5 @@
 # SelfSignedDemo
-A simple Xamarin Forms app to test browsing (via https) pages in a server with a self signed certificate.
+A simple Xamarin Forms app to test browsing pages (via https) in a server with a self signed certificate.
 
 Browsing a web page via https on a web browser produces a warnig of unsecure page, due to certificate failure. But on the Web browser we can choose to skip the warning and continue the navigation.
 
