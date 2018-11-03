@@ -36,4 +36,4 @@ On my Android project, I've done the following changes:
         </network-security-config>
 
 ## Issue
-After those changes, the solution build just fine, but when debugging the app fails short because the `Boundle` parameter of the `MainActivity.OnCreate` override method is `null`. When I remove those changes, everything works fine.
+After those changes, the solution build just fine, but when debugging the app fails short because the `Bundle` parameter of the `MainActivity.OnCreate` override method is `null`. When I remove those changes, everything works fine.
