@@ -35,8 +35,9 @@ On my Android project, I've done the following changes:
           </debug-overrides>
         </network-security-config>
 
-## Issue
+## Issues
 After those changes, the solution build just fine, but when debugging the app fails at `base.OnCreate(bundle);` instruction on the `MainActivity` overrided `OnCreate` method. When I remove those changes, everything works fine.
+UPDATE: This happens only on Android Emulator, it runs fine on my physical androdid device.
 
 ## Environment
 I'm using VS 2017 Preview (version 15.9.0 Preview 4.0)
