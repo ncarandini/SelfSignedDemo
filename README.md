@@ -36,4 +36,7 @@ On my Android project, I've done the following changes:
         </network-security-config>
 
 ## Issue
-After those changes, the solution build just fine, but when debugging the app fails short because the `Bundle` parameter of the `MainActivity.OnCreate` override method is `null`. When I remove those changes, everything works fine.
+After those changes, the solution build just fine, but when debugging the app fails at `base.OnCreate(bundle);` instruction on the `MainActivity` overrided `OnCreate` method. When I remove those changes, everything works fine.
+
+## Environment
+I'm using VS 2017 Preview (version 15.9.0 Preview 4.0)
